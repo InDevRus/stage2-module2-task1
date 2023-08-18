@@ -1,8 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Welcome</title>
 </head>
 <body>
 <div class="w3-container w3-center">
