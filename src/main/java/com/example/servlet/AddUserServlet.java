@@ -26,8 +26,7 @@ public class AddUserServlet extends HttpServlet {
         User user = new User(firstName, lastName);
         Warehouse.getInstance().addUser(user);
 
-        HttpSession session = request.getSession();
-        session.setAttribute("user", user);
+        request.setAttribute("user", user);
 
         request.getRequestDispatcher("/jsp/add.jsp").forward(request, response);
     }
